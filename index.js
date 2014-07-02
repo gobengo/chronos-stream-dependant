@@ -11,4 +11,8 @@ module.exports = function test(opts) {
     cs.on('data', function (data) {
       console.log('chronos data', data);
     });
+    
+    window.onload = function () {
+        document.body.innerHTML = 'worked!';        
+    }
 };

@@ -2,4 +2,5 @@
 /node_modules/*
 !/node_modules/through2-dependant
 !/node_modules/chronos-stream-fake
+!/node_modules/through2-browser
 

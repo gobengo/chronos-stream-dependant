@@ -9,6 +9,9 @@ dist: build
 	mkdir -p dist
 	./node_modules/.bin/browserify index.js -r ./index.js:chronos-stream-dependant > dist/chronos-stream-dependant.js
 
+server: build
+	./node_modules/.bin/http-server .
+
 # if package.json changes, install
 node_modules: package.json
 	npm install
