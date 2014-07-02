@@ -12,6 +12,7 @@ dist: build
 # if package.json changes, install
 node_modules: package.json
 	npm install
+	cd node_modules/through2-dependant && npm install
 	touch $@
 
 clean:

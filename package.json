@@ -8,6 +8,10 @@
   },
   "author": "",
   "license": "ISC",
+  "bundledDependencies" : [
+    "through2-dependant",
+    "chronos-stream-fake"
+  ],
   "devDependencies": {
     "browserify": "^4.2.0"
   }
