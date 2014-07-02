@@ -6782,6 +6782,10 @@ ResponseToObjects.prototype._transform = function (response, encoding, done) {
 },{"inherits":36,"is-array":37,"readable-stream":51}],54:[function(require,module,exports){
 'use strict';
 
+/**
+ * Uncommenting this line will cause the chronos-stream-dependant/index.html
+ * demo to throw an uncaught exception. WHYYYYY? - @bengo
+ */
 // var through = require('through2');
 
 module.exports = function ThingThatDependsOnThrough2() {};
